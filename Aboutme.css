@@ -318,7 +318,7 @@ nav{
 }
 .contact-inputs{
     width: 25vw;
-    height: 5vh;
+    height: 2rem;
     border: none;
     outline: none;
     padding-left: 15px;
@@ -332,7 +332,7 @@ nav{
     align-items: center;
 }
 .Mailform textarea{
-    height: 10vh;
+    height: 4rem;
     padding-top: 1vh;
     border-radius: 20px;
 }
