@@ -37,6 +37,9 @@ header{
     position: sticky;
     top: 0;
 }
+html{
+     scroll-behavior: smooth;
+}
 nav{
     background-color: var(--primary-color);
     color: rgb(209, 186, 186);
@@ -85,6 +88,13 @@ nav{
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
+}
+.btn1{
+     font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
 }
 #icon{
     width: 30px;

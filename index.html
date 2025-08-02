@@ -28,21 +28,25 @@
               </div>
             </div>
             <div class="nav-home details borders">
-                <p><a href="http://127.0.0.1:5500/aboutme.html">Home</a></p>
+                <p><a href="">Home</a></p>
             </div>
             <div class="nav-About details borders">
-                <p><a href="">About</a></p>
+                <!-- <p><a href="">About</a></p> -->
+                 <button class="btn1" onclick="scrollAbout()">About</button>
             </div>
             <div class="nav-Skills details borders">
-                <p><a href="">Skills</a></p>
+                <!-- <p><a href="">Skills</a></p> -->
+                 <button class="btn1" onclick="scrollSkills()">Skills</button>
             </div>
             <div class="nav-qualification details borders">
-                <p><a href="">Qualification</a></p>
-                <p><a href="">Details</a></p>
+                <!-- <p><a href="">Qualification</a></p>
+                <p><a href="">Details</a></p> -->
+                 <button class="btn1" onclick="scrollQualification()">Qualification <br>Details</button>
             </div>
             <div class="nav-Contact details borders">
-                <p><a href="">Contact</a></p>
-                <p><a href="">Details</a></p>
+                <!-- <p><a href="">Contact</a></p>
+                <p><a href="">Details</a></p> -->
+                <button class="btn1" onclick="scrollContact()">Contact<br> Details</button>
             </div>
             <div class="nav-close details borders">
                 <p><a href="">Close</a></p>
@@ -283,6 +287,22 @@
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+function scrollAbout() {
+  document.body.scrollTop = 600;
+  document.documentElement.scrollTop = 600;
+}
+function scrollSkills() {
+  document.body.scrollTop = 1800;
+  document.documentElement.scrollTop = 1800;
+}
+function scrollContact() {
+  document.body.scrollTop = 2100;
+  document.documentElement.scrollTop = 2100;
+}
+function scrollQualification() {
+  document.body.scrollTop = 900;
+  document.documentElement.scrollTop = 900;
 }
     </script>
 </body>
