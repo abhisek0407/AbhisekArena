@@ -17,6 +17,7 @@
     --formText-color:rgb(128, 128, 21);
     --button-color:#eb1e1e;
     --buttonHover-color:rgb(61, 48, 48);
+    --subNavTextcolor: rgb(209, 186, 186);
 }
 .light-theme{
     --primary-color: rgb(25, 15, 141);
@@ -32,6 +33,7 @@
     --formText-color:blue;
     --button-color:#0b0b2e;
     --buttonHover-color:rgb(75, 128, 242);
+     --subNavTextcolor: white;
 }
 header{
     position: sticky;
@@ -99,6 +101,22 @@ nav{
 #icon{
     width: 30px;
     height: 30px;
+}
+section{
+    background-color: var(--panel1-color);
+    padding: 5px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+    gap: 15px;
+    font-size: 1vw;
+}
+
+.subNav a{
+    text-decoration: none;
+    color: var(--subNavTextcolor);
+    font-weight: bold;
 }
 .achieve{
     height: 25px;
@@ -277,6 +295,8 @@ nav{
     align-items:center;
     font-size:15px ;
     font-weight: bold;
+    gap: 0.5rem;
+    margin-top: 5px;
 }
 .contact-head{
     text-align: center;

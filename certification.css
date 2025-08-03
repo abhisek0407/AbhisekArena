@@ -1,0 +1,186 @@
+/* body{
+    background-color: black;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+*{
+    margin: 0;
+    font-family: arial;
+    border:border-box;
+}
+:root{
+    --primary-color: rgb(33, 30, 30);
+    --secondary-color:rgb(30, 2, 2);
+    --sub-color:rgb(61, 48, 48);
+    --panel1-color:rgb(26, 21, 21);
+    --head-color:rgb(167, 118, 29);
+    --text-color:black;
+    --achieve-color: rgb(255, 193, 77);
+    --skillhobby-color:yellow;
+    --innerskillhobby-color:rgb(110, 79, 21);
+    --skilltext-color:rgb(235, 235, 97);
+    --formText-color:rgb(128, 128, 21);
+    --button-color:#eb1e1e;
+    --buttonHover-color:rgb(61, 48, 48);
+    --subNavTextcolor: rgb(209, 186, 186);
+}
+.light-theme{
+    --primary-color: rgb(25, 15, 141);
+    --secondary-color: rgb(93, 166, 239);
+    --sub-color: rgb(25, 15, 141);
+    --panel1-color: rgb(42, 27, 199);
+    --head-color: rgb(42, 27, 199);
+    --text-color:white;
+    --achieve-color: rgb(234, 121, 243);
+    --skillhobby-color:rgb(42, 27, 199);
+    --innerskillhobby-color: rgb(163, 24, 173);
+    --skilltext-color: white;
+    --formText-color:blue;
+    --button-color:#0b0b2e;
+    --buttonHover-color:rgb(75, 128, 242);
+    --subNavTextcolor: white;
+}
+html{
+     scroll-behavior: smooth;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+}
+nav{
+    background-color: var(--primary-color);
+    color: rgb(209, 186, 186);
+    height: 70px;
+    padding-left:0;
+    padding-top: 2px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    display: flex;
+    /* justify-content: center; */
+    width: 200px;
+    height: 60px;
+    /* align-items: center; */
+    position: relative;
+    left: 0;
+}
+.logo-pic{
+    width:100px;
+    background-image: url("A letter logo.jpg");
+    background-size: cover;
+    background-position: top;
+}
+.logo-cap{
+    width:100px;
+    /* text-align: center; */
+    padding-top: 6px;
+}
+/* .nav-logoBorder{
+    
+} */
+ /* .nav-address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+ } */
+ .add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 0.85rem;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.add-sec{
+    font-size: 1rem;
+}
+.details p a{
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: bold;
+}
+.details p{
+    margin-bottom: 0;
+}
+.btn1{
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+
+}
+#icon{
+    width: 30px;
+    height: 30px;
+}
+section{
+    background-color: var(--panel1-color);
+    padding: 5px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+    gap: 15px;
+    font-size: 1vw;
+}
+
+.subNav a{
+    text-decoration: none;
+    color: var(--subNavTextcolor);
+    font-weight: bold;
+}
+.achieve{
+    height: 25px;
+    background-color: rgb(169, 151, 151);
+    /* padding: 0; */
+    color:var(--text-color) ;
+    display: flex;
+}
+.achievement{
+    background-color: var(--head-color);
+    height: 25px;
+    width: 20rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.achieve-list{
+    background-color: var(--achieve-color);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+}
+.borders:hover{
+    border: 2px solid white;
+}
+main{
+    background-color: var(--secondary-color);
+    color: white;
+}
+.certFirstCont{
+    padding: 30px;
+    /* height: 1000px; */
+}
+footer{
+    height: 100px;
+}
+.foot-panel2{
+    height: 60px;
+    background-color: var(--primary-color);
+    color: rgb(255, 233, 233);
+     display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-weight: bolder;
+}
